@@ -1,0 +1,48 @@
+-- Tuplas de la tabla Prof.
+
+insert into Prof values (1,'Laura','tc');
+insert into Prof values (3,'Roberto','tp');
+insert into Prof values (5,'Luis','tc');
+insert into Prof values (7,'Raúl','mt');
+insert into Prof values (9,'Érika','mt');
+
+-- Tuplas de la tabla Alum.
+
+insert into Alum values (10,'Ana','com',9.0);
+insert into Alum values (20,'José','act',8.0);
+insert into Alum values (30,'Pablo','tel',8.0);
+insert into Alum values (40,'Oralia','ind',9.0);
+insert into Alum values (50,'Rebeca','ind',7.0);
+insert into Alum values (60,'Gabriel','mec',9.0);
+insert into Alum values (70,'Patricia','neg',8.66);
+
+-- Tuplas de la tabla Mater.
+
+insert into Mater values (300,'Algoritmos',9);
+insert into Mater values (310,'Estructuras de Datos',9);
+insert into Mater values (605,'Economía I',8);
+insert into Mater values (620,'Econometría',9);
+insert into Mater values (800,'Matemáticas I',7);
+insert into Mater values (816,'Estadística IV',8);
+
+-- Tuplas de la tabla Grupo.
+
+insert into Grupo values ('300-1','CC102',1,300);
+insert into Grupo values ('310-1','CC001',1,310);
+insert into Grupo values ('310-2','CC201',3,310);
+insert into Grupo values ('605-1','107',5,605);
+insert into Grupo values ('800-1','301',7,800);
+
+-- Tuplas de la tabla Inscrito.
+
+insert into Inscrito values (10,'310-1');
+insert into Inscrito values (10,'605-1');
+insert into Inscrito values (10,'800-1');
+insert into Inscrito values (20,'800-1');
+insert into Inscrito values (30,'300-1');
+insert into Inscrito values (40,'310-2');
+insert into Inscrito values (50,'605-1');
+insert into Inscrito values (50,'800-1');
+insert into Inscrito values (60,'605-1');
+insert into Inscrito values (60,'800-1');
+

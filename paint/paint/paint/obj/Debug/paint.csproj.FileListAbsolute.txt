@@ -1,0 +1,12 @@
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\bin\Debug\paint.exe.config
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\bin\Debug\paint.exe
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\bin\Debug\paint.pdb
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\MainWindow.baml
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\MainWindow.g.cs
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\App.g.cs
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\paint_MarkupCompile.cache
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\paint.g.resources
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\paint.Properties.Resources.resources
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\paint.csproj.GenerateResource.Cache
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\paint.exe
+E:\DesarrolloAplicacionesInf\VisualStudio\paint\paint\paint\obj\Debug\paint.pdb

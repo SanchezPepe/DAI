@@ -1,0 +1,28 @@
+
+--	DEFINICIÓN DE TABLAS concepto UBER
+
+create table coche
+       (id_coche	smallint  not null primary key,
+	modelo		char(30),
+	placa 		char(8));
+
+create table conductor
+	(IdCond	   smallint	primary key,
+	telefono   char(30),
+	NomCond	   char(30));
+
+create table ruta
+	(idRuta         smallint	primary key,
+	numeroViajes	smallint,
+	Idcoche		smallint	references coche,
+	idCond 	   	smallint	references conductor);
+	
+create table viaje
+	(idViaje	smallint	primary key,
+	direccion	char(30));
+
+create table ruta_viaje
+	(idViaje	smallint	references viaje,
+	idRuta	   	smallint	references ruta,
+			primary key (idViaje,idRuta));
+
