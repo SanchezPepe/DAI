@@ -1,1 +1,6 @@
 E:\DesarrolloAplicacionesInf\VisualStudio\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\JSANCHEZAGU\Desktop\DAI\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\JSANCHEZAGU\Desktop\DAI\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\JSANCHEZAGU\Desktop\DAI\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\JSANCHEZAGU\Desktop\DAI\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\JSANCHEZAGU\Desktop\DAI\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

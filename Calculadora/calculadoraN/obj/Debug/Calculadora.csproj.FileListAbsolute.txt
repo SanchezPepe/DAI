@@ -1,0 +1,3 @@
+C:\Users\JSANCHEZAGU\Desktop\DAI\Calculadora\calculadoraN\bin\Debug\calculadoraN.exe.config
+C:\Users\JSANCHEZAGU\Desktop\DAI\Calculadora\calculadoraN\obj\Debug\calculadoraN.exe
+C:\Users\JSANCHEZAGU\Desktop\DAI\Calculadora\calculadoraN\obj\Debug\calculadoraN.pdb

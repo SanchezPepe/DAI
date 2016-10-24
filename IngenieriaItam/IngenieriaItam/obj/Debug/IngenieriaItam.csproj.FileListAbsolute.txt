@@ -11,3 +11,6 @@ E:\DesarrolloAplicacionesInf\VisualStudio\IngenieriaItam\IngenieriaItam\obj\Debu
 E:\DesarrolloAplicacionesInf\VisualStudio\IngenieriaItam\IngenieriaItam\obj\Debug\IngenieriaItam.csproj.GenerateResource.Cache
 E:\DesarrolloAplicacionesInf\VisualStudio\IngenieriaItam\IngenieriaItam\obj\Debug\IngenieriaItam.exe
 E:\DesarrolloAplicacionesInf\VisualStudio\IngenieriaItam\IngenieriaItam\obj\Debug\IngenieriaItam.pdb
+C:\Users\JSANCHEZAGU\Desktop\DAI\IngenieriaItam\IngenieriaItam\bin\Debug\IngenieriaItam.exe.config
+C:\Users\JSANCHEZAGU\Desktop\DAI\IngenieriaItam\IngenieriaItam\obj\Debug\IngenieriaItam.exe
+C:\Users\JSANCHEZAGU\Desktop\DAI\IngenieriaItam\IngenieriaItam\obj\Debug\IngenieriaItam.pdb
