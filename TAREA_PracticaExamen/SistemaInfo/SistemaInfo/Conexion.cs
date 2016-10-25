@@ -16,9 +16,8 @@ namespace SistemaInfo
 
         public static SqlConnection agregaConexion()
         {
-            SqlConnection cnn = new SqlConnection("Data Source=CC201-01;Initial Catalog=Escuela;User ID=sa;Password=sqladmin");
+            SqlConnection cnn = new SqlConnection("Data Source=112SALAS08;Initial Catalog=SistemaITAM;User ID=sa;Password=sqladmin");
             cnn.Open();
-            MessageBox.Show("Conectado a BD");
             return cnn;
         }
 
@@ -27,11 +26,11 @@ namespace SistemaInfo
             try
             {
                 SqlConnection c = Conexion.agregaConexion();
-                cmd = new SqlCommand("SELECT nombreProg FROM programas", c);
+                cmd = new SqlCommand("SELECT programa FROM programa", c);
                 dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    cb.Items.Add(dr["nombreProg"].ToString());
+                    cb.Items.Add(dr["programa"].ToString());
                 }
                 cb.SelectedIndex = 0;
                 dr.Close();

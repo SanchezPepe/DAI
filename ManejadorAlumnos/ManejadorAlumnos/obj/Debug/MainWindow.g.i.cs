@@ -240,12 +240,6 @@ namespace ManejadorAlumnos {
             return;
             case 13:
             this.cbProgramas = ((System.Windows.Controls.ComboBox)(target));
-            
-            #line 18 "..\..\MainWindow.xaml"
-            this.cbProgramas.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.cbProgramas_SelectionChanged);
-            
-            #line default
-            #line hidden
             return;
             case 14:
             this.btAgregar = ((System.Windows.Controls.Button)(target));

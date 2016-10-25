@@ -23,5 +23,22 @@ namespace SistemaInfo
         {
             InitializeComponent();
         }
+
+        private void btModifica_Click(object sender, RoutedEventArgs e)
+        {
+            Alumno a = new Alumno(tbnombre.Text, tbCorreo.Text);
+            bool resp = AlumnoGen.modificar(a);
+            if (resp)
+                MessageBox.Show("Modificación de datos exitosa");
+            else
+                MessageBox.Show("No se pudo modificar");
+        }
+
+        private void btRegresar_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = new MainWindow();
+            w.Show();
+            this.Hide();
+        }
     }
 }

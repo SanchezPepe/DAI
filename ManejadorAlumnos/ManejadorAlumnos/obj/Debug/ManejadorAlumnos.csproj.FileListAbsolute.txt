@@ -17,3 +17,6 @@ E:\DesarrolloAplicacionesInf\VisualStudio\ManejadorAlumnos\ManejadorAlumnos\obj\
 E:\DesarrolloAplicacionesInf\VisualStudio\ManejadorAlumnos\ManejadorAlumnos\obj\Debug\Modificar.g.cs
 E:\DesarrolloAplicacionesInf\VisualStudio\ManejadorAlumnos\ManejadorAlumnos\obj\Debug\Buscar.baml
 E:\DesarrolloAplicacionesInf\VisualStudio\ManejadorAlumnos\ManejadorAlumnos\obj\Debug\Buscar.g.cs
+C:\Users\JSANCHEZAGU\Desktop\DAI\ManejadorAlumnos\ManejadorAlumnos\bin\Debug\ManejadorAlumnos.exe.config
+C:\Users\JSANCHEZAGU\Desktop\DAI\ManejadorAlumnos\ManejadorAlumnos\obj\Debug\ManejadorAlumnos.exe
+C:\Users\JSANCHEZAGU\Desktop\DAI\ManejadorAlumnos\ManejadorAlumnos\obj\Debug\ManejadorAlumnos.pdb

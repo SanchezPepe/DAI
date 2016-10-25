@@ -23,5 +23,21 @@ namespace SistemaInfo
         {
             InitializeComponent();
         }
+
+        private void btElimina_Click(object sender, RoutedEventArgs e)
+        {
+            bool resp = AlumnoGen.eliminar(TBCorreo.Text);
+            if (resp)
+                MessageBox.Show("Baja de alumno exitosa");
+            else
+                MessageBox.Show("No se pudo dar de baja al alumno");
+        }
+
+        private void btRegresar_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = new MainWindow();
+            w.Show();
+            this.Hide();
+        }
     }
 }
