@@ -1,0 +1,11 @@
+CREATE TABLE alumno(
+nombre varchar(50) not null PRIMARY KEY,
+sexo varchar(1) not null,
+fechaN varchar(20),
+correo varchar(50),
+grado int,
+programa int)
+
+CREATE TABLE programa(
+idUnico int not null PRIMARY KEY,
+ingenieria varchar(50) not null)
