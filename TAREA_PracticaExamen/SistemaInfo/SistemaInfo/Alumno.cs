@@ -14,6 +14,7 @@ namespace SistemaInfo
         public String correo { get; set; }
         public int grado { get; set; }
         public int programa { get; set; }
+        public String carrera { get; set; }
 
         public Alumno()
         {
@@ -33,6 +34,17 @@ namespace SistemaInfo
         {
             this.nombre = nombre;
             this.correo = correo;
+        }
+
+        public Alumno(String nombre, char sexo, String fechaN, String correo, int grado, String prog)
+        {
+            this.nombre = nombre;
+            this.sexo = sexo;
+            this.fechaN = fechaN;
+            this.correo = correo;
+            this.grado = grado;
+            this.carrera = prog;
+
         }
     }
 }

@@ -16,24 +16,36 @@ using System.Windows.Shapes;
 namespace SistemaInfo
 {
     /// <summary>
-    /// Lógica de interacción para Aspirante.xaml
+    /// Lógica de interacción para Reporte.xaml
     /// </summary>
-    public partial class Aspirante : Window
+    public partial class Reporte : Window
     {
-        public Aspirante()
+        public Reporte()
         {
             InitializeComponent();
+            Conexion c = new Conexion();
+            c.llenaCbProg(cbProg);
+        }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = new MainWindow();
+            w.Show();
+            this.Hide();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
             SqlDataReader dr;
             SqlConnection con;
 
-            try
-            {
-                Alumno a;
-                List<Alumno> lista = new List<Alumno>();
-                String query = "SELECT nombre, sexo, fechaN, correo, grado, ingenieria FROM alumno INNER JOIN programa ON alumno.ingenieria = programa.idUnico";
-                con = Conexion.agregaConexion();
-                SqlCommand cmd = new SqlCommand(query, con);
+            try{
+
+            Alumno a;
+            List<Alumno> lista = new List<Alumno>();
+            String query = "SELECT nombre, sexo, fechaN, correo, grado, programa.nombreP FROM alumno INNER JOIN programa ON alumno.ingenieria = programa.idUnico WHERE nombreP LIKE '" + cbProg.Text +"'";
+            con = Conexion.agregaConexion();
+            SqlCommand cmd = new SqlCommand(query, con);
                 dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
@@ -43,26 +55,17 @@ namespace SistemaInfo
                     a.fechaN = dr.GetString(2);
                     a.correo = dr.GetString(3);
                     a.grado = dr.GetInt32(4);
-                    a.programa = dr.GetInt32(5);
+                    a.carrera = dr.GetString(5);
                     lista.Add(a);
                 }
                 GridAs.ItemsSource = lista;
-            }
-            catch (Exception ex)
+            }catch (Exception ex)
             {
                 MessageBox.Show("No se pudo hacer la lectura " + ex);
             }
             
+        }    
         }
 
-        
 
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MainWindow w = new MainWindow();
-            w.Show();
-            this.Hide();
-        }
     }
-}

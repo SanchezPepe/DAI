@@ -17,8 +17,9 @@
         <ComboBox x:Name="CBProgramas" HorizontalAlignment="Left" Margin="239,205,0,0" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="BTAlta" Content="Alta" HorizontalAlignment="Left" Margin="403,46,0,0" VerticalAlignment="Top" Width="75" Click="BTAlta_Click"/>
         <Button x:Name="BTModifica" Content="Modifica" HorizontalAlignment="Left" Margin="403,77,0,0" VerticalAlignment="Top" Width="75" Click="BTModifica_Click"/>
-        <Button x:Name="BTBusca" Content="Busca" HorizontalAlignment="Left" Margin="403,108,0,0" VerticalAlignment="Top" Width="75" Click="BTBusca_Click"/>
-        <Button x:Name="BTElimina" Content="Elimina" HorizontalAlignment="Left" Margin="403,139,0,0" VerticalAlignment="Top" Width="75" Click="BTElimina_Click"/>
-        
+        <Button x:Name="BTElimina" Content="Elimina" HorizontalAlignment="Left" Margin="403,112,0,0" VerticalAlignment="Top" Width="75" Click="BTElimina_Click"/>
+        <Button x:Name="BTAspirante" Content="Aspirantes" HorizontalAlignment="Left" Margin="403,143,0,0" VerticalAlignment="Top" Width="75" Click="BTAspirante_Click"/>
+        <Button x:Name="BTReporte"  Content="Reporte" HorizontalAlignment="Left" Margin="403,174,0,0" VerticalAlignment="Top" Width="75" Height="53" Grid.Row="2" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2" Click="BTReporte_Click"/>
+
     </Grid>
 </Window>

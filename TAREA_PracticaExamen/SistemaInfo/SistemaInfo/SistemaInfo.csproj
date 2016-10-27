@@ -53,12 +53,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Aspirante.xaml.cs">
+      <DependentUpon>Aspirante.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte.xaml.cs">
+      <DependentUpon>Reporte.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SistemaITAMDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SistemaITAMDataSet.xsd</DependentUpon>
     </Compile>
-    <Page Include="Busca.xaml">
+    <Page Include="Aspirante.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -76,9 +82,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Busca.xaml.cs">
-      <DependentUpon>Busca.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Conexion.cs" />
     <Compile Include="Elimina.xaml.cs">
       <DependentUpon>Elimina.xaml</DependentUpon>
@@ -93,6 +96,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Modifica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reporte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

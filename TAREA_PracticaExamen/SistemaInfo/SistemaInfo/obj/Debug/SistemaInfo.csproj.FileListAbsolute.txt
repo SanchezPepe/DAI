@@ -32,11 +32,9 @@ C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\bi
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\SistemaInfo.exe
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\SistemaInfo.pdb
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\SistemaInfo.csprojResolveAssemblyReference.cache
-C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Busca.baml
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Elimina.baml
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\MainWindow.baml
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Modifica.baml
-C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Busca.g.cs
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Elimina.g.cs
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\MainWindow.g.cs
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Modifica.g.cs
@@ -47,3 +45,7 @@ C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\ob
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\SistemaInfo.csproj.GenerateResource.Cache
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\bin\Debug\SistemaInfo.exe
 C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\bin\Debug\SistemaInfo.pdb
+C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Aspirante.baml
+C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Aspirante.g.cs
+C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Reporte.baml
+C:\Users\JSANCHEZAGU\Desktop\DAI\TAREA_PracticaExamen\SistemaInfo\SistemaInfo\obj\Debug\Reporte.g.cs
