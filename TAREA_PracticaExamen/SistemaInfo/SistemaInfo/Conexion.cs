@@ -16,7 +16,7 @@ namespace SistemaInfo
 
         public static SqlConnection agregaConexion()
         {
-            SqlConnection cnn = new SqlConnection("Data Source=112SALAS11;Initial Catalog=SistemaITAM;User ID=sa;Password=sqladmin");
+            SqlConnection cnn = new SqlConnection("Data Source=DESKTOP-TR4IJ0I;Initial Catalog=SistemaITAM;User ID=sa;Password=sqladmin");
             cnn.Open();
             return cnn;
         }
