@@ -3,10 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Reporte" Height="380" Width="458">
     <Grid Margin="15,15,15,15">
-        <Label Content="Alumnos por programa" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="99,0,0,0"/>
+        <Label Content="Aspirantes por programa" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Margin="99,0,0,0" Width="208"/>
         <DataGrid x:Name="GridAs" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Height="144" Width="392"/>
         <Button Content="Regresar" HorizontalAlignment="Left" Margin="300,262,0,0" VerticalAlignment="Top" Width="102" Height="33" Click="Button_Click_1"/>
-        <ComboBox x:Name="cbProg" HorizontalAlignment="Left" Margin="99,51,0,0" VerticalAlignment="Top" Width="195"/>
+        <ComboBox x:Name="cbProg" HorizontalAlignment="Left" Margin="99,39,0,0" VerticalAlignment="Top" Width="208" Height="34"/>
         <Button Content="Consulta" HorizontalAlignment="Left" Margin="10,263,0,0" VerticalAlignment="Top" Width="104" Height="33" Click="Button_Click_2"/>
 
     </Grid>

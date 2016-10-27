@@ -59,12 +59,21 @@ namespace SistemaInfo
             }
             if (TBNombre.Text == "")
                 MessageBox.Show("Ingrese datos");
+            if (int.Parse(TBGrado.Text) < 4)
+                MessageBox.Show("Sólo se permiten alumnos de 4to grado en adelante");
             else
             {
                 Alumno a = new Alumno(TBNombre.Text, TBSexo.Text[0], TBFechaNac.Text, TBCorreo.Text, int.Parse(TBGrado.Text), var);
                 bool res = AlumnoGen.agrega(a);
                 if (res)
+                {
                     MessageBox.Show("Alta de alumno exitosa");
+                    TBNombre.Clear();
+                    TBSexo.Clear();
+                    TBFechaNac.Clear();
+                    TBCorreo.Clear();
+                    TBGrado.Clear();
+                }
                 else
                     MessageBox.Show("No se pudo dar de alta al alumno");
             }

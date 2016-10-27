@@ -14,7 +14,7 @@ public partial class Index : System.Web.UI.Page
         OdbcConnection conexion = null;
         try
         {
-            String conectar = "Driver={SQL Server Native Client 11.0}; Server=112SALAS08;Uid=sa;Pwd=sqladmin;Database=Empresa";
+            String conectar = "Driver={SQL Server Native Client 11.0}; Server=DESKTOP-TR4IJ0I;Uid=sa;Pwd=sqladmin;Database=Empresa";
             conexion = new OdbcConnection(conectar);
             conexion.Open();
         }

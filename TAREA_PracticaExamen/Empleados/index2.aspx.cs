@@ -13,7 +13,7 @@ public partial class index2 : System.Web.UI.Page
         OdbcConnection conexion = null;
         try
         {
-            String conectar = "Driver={SQL Server Native Client 11.0}; Server=112SALAS08;Uid=sa;Pwd=sqladmin;Database=Empresa";
+            String conectar = "Driver={SQL Server Native Client 11.0}; Server=DESKTOP-TR4IJ0I;Uid=sa;Pwd=sqladmin;Database=Empresa";
             conexion = new OdbcConnection(conectar);
             conexion.Open();
         }
@@ -30,12 +30,12 @@ public partial class index2 : System.Web.UI.Page
         OdbcConnection miConexion = conectarDB();
         if (miConexion != null)
         {
-            String query = "SELECT p.claveP, p.totalV, sueldoB, nombre FROM empleado, pedido p";
+            String query = "SELECT pedido.idPedido, pedido.montoT, sueldoB, nombre FROM empleado INNER JOIN pedido ON empleado.nombre = pedido.vendedor";
             OdbcCommand sql = new OdbcCommand(query, miConexion);
             OdbcDataReader lector = sql.ExecuteReader();
             GridView1.DataSource = lector;
             GridView1.DataBind();
-            lbNoticias.Text = "Cargado correctamente";
+            lbNoticias.Text = "<br />Cargado correctamente";
         }
         else
         {
@@ -45,5 +45,9 @@ public partial class index2 : System.Web.UI.Page
     protected void btRegresar_Click(object sender, EventArgs e)
     {
         Response.Redirect("Informacion.aspx");
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Index.aspx");
     }
 }

@@ -13,7 +13,7 @@ public partial class sueldo : System.Web.UI.Page
         OdbcConnection conexion = null;
         try
         {
-            String conectar = "Driver={SQL Server Native Client 11.0}; Server=112SALAS08;Uid=sa;Pwd=sqladmin;Database=Empresa";
+            String conectar = "Driver={SQL Server Native Client 11.0}; Server=DESKTOP-TR4IJ0I;Uid=sa;Pwd=sqladmin;Database=Empresa";
             conexion = new OdbcConnection(conectar);
             conexion.Open();
         }
@@ -31,7 +31,7 @@ public partial class sueldo : System.Web.UI.Page
             Response.Write("El empleado no existe");
         else
         {
-            String query = "SELECT sueldoB, p.totalV FROM empleado, pedido p WHERE nombre LIKE '" + Session["Ans"] + "'";
+            String query = "SELECT sueldoB, pedido.montoT FROM empleado INNER JOIN pedido ON empleado.nombre = pedido.vendedor WHERE nombre LIKE '" + Session["Ans"] + "'";
 
             OdbcConnection miConexion = conectarDB();
             OdbcCommand sql = new OdbcCommand(query, miConexion);
@@ -45,31 +45,30 @@ public partial class sueldo : System.Web.UI.Page
                 ventaT = lector.GetDouble(1);
                 if (ventaT >= 100 && ventaT <= 1000)
                 {
-                    sueldoB = sueldoB * 1.1;
+                    ventaT = ventaT * 0.1;
                 }
                 if (ventaT > 1000 && ventaT <= 2000)
                 {
-                    sueldoB = sueldoB * 1.2;
+                    ventaT = ventaT * 0.2;
                 }
                 if (ventaT > 2000 && ventaT <= 4000)
                 {
-                    sueldoB = sueldoB * 1.25;
+                    ventaT = ventaT * 0.25;
                 }
                 else
                 {
-                    sueldoB = sueldoB * 1.35;
+                    ventaT = ventaT * 0.35;
                 }
 
-                Response.Write("Sueldo final con comisiones de: "+ Session["Ans"] + "</br>");
-                Response.Write(sueldoB);
+                Response.Write("Sueldo final con comisiones de: " + Session["Ans"] + "<br/>");
+                double final = sueldoB + ventaT;
+                Response.Write("$" + final);
             }
             lector.Close();
             miConexion.Close();
         }
+
     }
-
-
-
 
     protected void Button1_Click(object sender, EventArgs e)
     {
