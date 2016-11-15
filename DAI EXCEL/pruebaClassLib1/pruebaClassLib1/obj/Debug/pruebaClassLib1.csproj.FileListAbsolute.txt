@@ -13,3 +13,18 @@ C:\Users\sdist\Desktop\166190\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaCl
 C:\Users\sdist\Desktop\166190\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.csproj.GenerateResource.Cache
 C:\Users\sdist\Desktop\166190\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.exe
 C:\Users\sdist\Desktop\166190\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.pdb
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\bin\Debug\pruebaClassLib1.exe.config
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.exe
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.pdb
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\bin\Debug\pruebaClassLib1.exe
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\bin\Debug\pruebaClassLib1.pdb
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\bin\Debug\ClassLibrary1.dll
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.csprojResolveAssemblyReference.cache
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\MainWindow.baml
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\MainWindow.g.cs
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\App.g.cs
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1_MarkupCompile.cache
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.g.resources
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.Properties.Resources.resources
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\pruebaClassLib1\pruebaClassLib1\obj\Debug\pruebaClassLib1.csproj.GenerateResource.Cache

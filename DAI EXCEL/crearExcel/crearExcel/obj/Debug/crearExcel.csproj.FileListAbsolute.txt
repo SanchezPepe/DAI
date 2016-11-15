@@ -14,3 +14,9 @@ C:\Users\sdist\Desktop\166190\crearExcel\crearExcel\obj\Debug\crearExcel.Propert
 C:\Users\sdist\Desktop\166190\crearExcel\crearExcel\obj\Debug\crearExcel.csproj.GenerateResource.Cache
 C:\Users\sdist\Desktop\166190\crearExcel\crearExcel\obj\Debug\crearExcel.exe
 C:\Users\sdist\Desktop\166190\crearExcel\crearExcel\obj\Debug\crearExcel.pdb
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\crearExcel\crearExcel\bin\Debug\crearExcel.exe.config
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\crearExcel\crearExcel\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\crearExcel\crearExcel\obj\Debug\Interop.VBIDE.dll
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\crearExcel\crearExcel\obj\Debug\crearExcel.csproj.ResolveComReference.cache
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\crearExcel\crearExcel\obj\Debug\crearExcel.exe
+C:\Users\Pepe\Desktop\GitHub\DAI\DAI EXCEL\crearExcel\crearExcel\obj\Debug\crearExcel.pdb
