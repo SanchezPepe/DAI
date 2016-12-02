@@ -12,7 +12,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText et1, et2, et3, et4;
+    EditText et1, et2, et3, et4;
+
 
 
     @Override
