@@ -1,5 +1,0 @@
-C:\Users\sdist\Desktop\166190\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.dll
-C:\Users\sdist\Desktop\166190\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
-C:\Users\sdist\Desktop\166190\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.tlb
-C:\Users\sdist\Desktop\166190\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.dll
-C:\Users\sdist\Desktop\166190\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

@@ -1,8 +1,0 @@
-CREATE TABLE empleado(
-nombre varchar(50) NOT NULL PRIMARY KEY,
-sueldoB float NOT NULL)
-
-CREATE TABLE pedido(
-idPedido int NOT NULL PRIMARY KEY,
-montoT float NOT NULL,
-vendedor varchar(50) REFERENCES empleado)
