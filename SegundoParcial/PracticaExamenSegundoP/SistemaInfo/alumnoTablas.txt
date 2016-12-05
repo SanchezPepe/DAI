@@ -1,0 +1,55 @@
+USE [SistemaITAM]
+GO
+
+/****** Object:  Table [dbo].[alumno]    Script Date: 26/10/2016 07:08:41 p.m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[alumno](
+	[nombre] [varchar](50) NULL,
+	[sexo] [varchar](1) NULL,
+	[fechaN] [varchar](50) NULL,
+	[correo] [varchar](50) NULL,
+	[grado] [int] NULL,
+	[ingenieria] [int] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+
+
+USE [SistemaITAM]
+GO
+
+/****** Object:  Table [dbo].[programa]    Script Date: 26/10/2016 07:09:37 p.m. ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[programa](
+	[nombreP] [varchar](50) NULL,
+	[idUnico] [int] IDENTITY(1,1) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
