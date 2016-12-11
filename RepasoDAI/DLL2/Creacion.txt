@@ -1,0 +1,29 @@
+1.- Nuevo proyecto
+2.- Agregar referencia COM, MICROSOFT EXCEL 1X.0 OBJECT LIBRARY
+3.- Añadir bibliotecas para el uso de EXCEL (Mainwindow.xaml.cs)
+	using Microsoft.Office.Interop;
+	using e = Microsoft.Office.Interop.Excel;
+	using System.IO;
+4.- Establecer cadena con la ubicación del libro (En este caso en el botón que creará)
+	string fileTest = "C:\\Users\\MiPC\\Documents\\DLL2";
+            if (File.Exists(fileTest))
+                File.Delete(fileTest);
+5.- Creación de las variables para el manejo de la app, libro y hoja
+	e.Application excelApp;
+        e.Worksheet hoja;
+        e.Workbook libro;
+6.- Manejo del libro, creación del libro y de la hoja donde se modifica la celda [x,y] por un texto deseado
+	excelApp = new e.Application();
+        libro = excelApp.Workbooks.Add();
+        hoja = (e.Worksheet)libro.Worksheets.get_Item(1);
+        hoja.Cells[1, 1] = txt.Text;
+7.- Guardar libro con la cadena de ubicación, cerrar Excel y la conexión
+	libro.SaveAs(fileTest);
+        libro.Close();
+        excelApp.Quit();
+
+
+
+
+ 
+	

@@ -1,0 +1,5 @@
+C:\Users\Pepe\Desktop\RepasoDAI\DLL1\DLL1\obj\Debug\DLL1.csprojResolveAssemblyReference.cache
+C:\Users\Pepe\Desktop\RepasoDAI\DLL1\DLL1\bin\Debug\DLL1.dll
+C:\Users\Pepe\Desktop\RepasoDAI\DLL1\DLL1\bin\Debug\DLL1.pdb
+C:\Users\Pepe\Desktop\RepasoDAI\DLL1\DLL1\obj\Debug\DLL1.dll
+C:\Users\Pepe\Desktop\RepasoDAI\DLL1\DLL1\obj\Debug\DLL1.pdb

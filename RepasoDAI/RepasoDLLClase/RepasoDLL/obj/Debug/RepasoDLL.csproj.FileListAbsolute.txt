@@ -1,0 +1,12 @@
+C:\Users\sdist\Desktop\RepasoDLL\RepasoDLL\obj\Debug\RepasoDLL.csprojResolveAssemblyReference.cache
+C:\Users\sdist\Desktop\RepasoDLL\RepasoDLL\bin\Debug\RepasoDLL.dll
+C:\Users\sdist\Desktop\RepasoDLL\RepasoDLL\bin\Debug\RepasoDLL.pdb
+C:\Users\sdist\Desktop\RepasoDLL\RepasoDLL\bin\Debug\RepasoDLL.tlb
+C:\Users\sdist\Desktop\RepasoDLL\RepasoDLL\obj\Debug\RepasoDLL.dll
+C:\Users\sdist\Desktop\RepasoDLL\RepasoDLL\obj\Debug\RepasoDLL.pdb
+C:\Users\Pepe\Desktop\RepasoDLL\RepasoDLL\bin\Debug\RepasoDLL.dll
+C:\Users\Pepe\Desktop\RepasoDLL\RepasoDLL\bin\Debug\RepasoDLL.pdb
+C:\Users\Pepe\Desktop\RepasoDLL\RepasoDLL\bin\Debug\RepasoDLL.tlb
+C:\Users\Pepe\Desktop\RepasoDLL\RepasoDLL\obj\Debug\RepasoDLL.dll
+C:\Users\Pepe\Desktop\RepasoDLL\RepasoDLL\obj\Debug\RepasoDLL.pdb
+C:\Users\Pepe\Desktop\RepasoDLL\RepasoDLL\obj\Debug\RepasoDLL.csproj.ResolveComReference.cache

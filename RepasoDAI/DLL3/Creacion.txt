@@ -1,0 +1,15 @@
+Manejo de un DLL a través de Excel
+1.- Crear DLL(Tipo 1) SIN FUNCIONES ESTÁTICAS
+2.- Cambiar propiedades para permitir interoperabilidad
+	APLICACIÓN -->Información de ensablado --> Crear ensamblado visible a través de COM
+	COMPILAR --> Registrar interoperabilidad COM
+3.- Compilar archivo con función y copiar el archivo .tlb al System32
+4.- En Excel --> Pestaña de desarrollador --> Virtual Basic
+5.- Crear módulo, insertar procedimiento o función
+6.- En herramientas, referencias seleccionar la DLL puesta en el System32
+7.- Programar funciones para Excel
+	NOTAS:
+	Dim object As DLL3.Class1
+    	Set object = New DLL3.Class1
+
+	LLAMAR A MÉTODOS CON EL OBJECT

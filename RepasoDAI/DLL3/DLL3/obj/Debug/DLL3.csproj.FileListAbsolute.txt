@@ -1,0 +1,6 @@
+C:\Users\Pepe\Desktop\RepasoDAI\DLL3\DLL3\bin\Debug\DLL3.dll
+C:\Users\Pepe\Desktop\RepasoDAI\DLL3\DLL3\bin\Debug\DLL3.pdb
+C:\Users\Pepe\Desktop\RepasoDAI\DLL3\DLL3\obj\Debug\DLL3.csprojResolveAssemblyReference.cache
+C:\Users\Pepe\Desktop\RepasoDAI\DLL3\DLL3\obj\Debug\DLL3.dll
+C:\Users\Pepe\Desktop\RepasoDAI\DLL3\DLL3\obj\Debug\DLL3.pdb
+C:\Users\Pepe\Desktop\RepasoDAI\DLL3\DLL3\bin\Debug\DLL3.tlb

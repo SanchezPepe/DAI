@@ -1,0 +1,16 @@
+﻿<Window x:Class="aplicacionVideo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" VerticalAlignment="Top" Width="497">
+            <!--Actualizar la ruta del video-->
+            <MediaElement x:Name="miVideo" Height="216" Source="C:\Users\Pepe\Desktop\GitHub\DAI\SegundoParcial\WPF\AppVideo\instalacion1.mp4" LoadedBehavior="Manual"/>
+            <Button x:Name="btPlay" Content="Play" Click="btPlay_Click"/>
+            <Button x:Name="btPausa" Content="Pausa" Click="btPausa_Click"/>
+            <Button x:Name="btStop" Content="Stop" Click="btStop_Click"/>
+            <Label x:Name="lbTiempo" Content="Label"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

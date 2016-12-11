@@ -1,0 +1,15 @@
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\bin\Debug\ReferenciaDLL1.exe.config
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\bin\Debug\ReferenciaDLL1.exe
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\bin\Debug\ReferenciaDLL1.pdb
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\bin\Debug\DLL1.dll
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\bin\Debug\DLL1.pdb
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\ReferenciaDLL1.csprojResolveAssemblyReference.cache
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\MainWindow.baml
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\MainWindow.g.cs
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\App.g.cs
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\ReferenciaDLL1_MarkupCompile.cache
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\ReferenciaDLL1.g.resources
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\ReferenciaDLL1.Properties.Resources.resources
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\ReferenciaDLL1.csproj.GenerateResource.Cache
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\ReferenciaDLL1.exe
+C:\Users\Pepe\Desktop\RepasoDAI\ReferenciaDLL1\ReferenciaDLL1\obj\Debug\ReferenciaDLL1.pdb

@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[alumnos](
+	[claveU] [int] IDENTITY(357,24) NOT NULL,
+	[nombre] [varchar](50) NOT NULL,
+	[sexo] [char](1) NOT NULL,
+	[correo] [varchar](50) NOT NULL,
+	[semestre] [int] NOT NULL,
+	[ingenieria] [varchar](50) NOT NULL
+) ON [PRIMARY]
